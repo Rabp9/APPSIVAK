@@ -1,0 +1,96 @@
+body
+{
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+button
+{
+	font-size: 14px;
+}
+
+h1
+{
+	color: black;
+	margin: 0px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+h2
+{
+	color: #737373;
+	margin: 0px;
+}
+
+h2[class*=tituloCabecera]
+{
+	background-color: white;
+	background-image: url(/APPSIVAK/public/img/fondorayas.png);
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+	line-height: 50px;
+	position: fixed;
+	top: 109px;
+	width: 100%;
+	z-index: 999;
+}
+
+#cabeceraLayout
+{
+	background-color: white;
+	box-shadow: 0px 0px 2px black;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+#cabeceraLayout > div > img
+{
+	border-right: 1px solid #999999;
+	height: 54px;
+	margin: 0px;
+}
+
+#cuerpoGeneralLayout
+{
+	background-color: white;
+	margin-top: 160px;
+	min-height: 450px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#divAppLogin
+{
+	background-color: white;
+	color: black;
+	display: inline-block;
+	font-size: 12px;
+	padding-left: 7px;
+	padding-right: 7px;
+	position: fixed;
+	right: 0px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+	top: 0px;
+	z-index: 1000;
+}
+
+#divAppLogin > label
+{
+	display: inline-block;
+	font-weight: bold;
+	text-align: left;
+	width: 90px;
+}
+
+#divTituloLayout
+{
+	height: 50px;
+}
+
+#pieLayout
+{
+	box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.2);
+	padding: 7px;
+}

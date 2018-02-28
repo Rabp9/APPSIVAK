@@ -1,0 +1,128 @@
+.anchoCompleto
+{
+	width: 100%;
+}
+
+.backGroundColorAzulClaro
+{
+	background-color: #5AC3EE;
+}
+
+.backGroundColorBlancoOscuro
+{
+	background-color: #FAFAFA;
+}
+
+.backGroundColorGrisClaro
+{
+	background-color: #F2F1F0;
+}
+
+.backGroundColorNaranja
+{
+	background-color: #FF8F00;
+}
+
+.backGroundColorRojoClaro
+{
+	background-color: rgb(238, 121, 121);
+}
+
+.backGroundColorVerdeBajo
+{
+	background-color: #82FB7D;
+}
+
+.bordeArriba
+{
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bordeAbajo
+{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contenidoBottom
+{
+	display: inline-block;
+	margin: 4px;
+	vertical-align: bottom;
+}
+
+.contenidoMiddle
+{
+	display: inline-block;
+	margin: 4px;
+	vertical-align: middle;
+}
+
+.contenidoTop
+{
+	display: inline-block;
+	margin: 4px;
+	vertical-align: top;
+}
+
+.cuatroColumnas
+{
+	column-count: 4;
+	width: 840px;
+}
+
+.displayInlineBlock
+{
+	display: inline-block;
+}
+
+.dosColumnas
+{
+	column-count: 2;
+	width: 420px;
+}
+
+.fondoRayasBlancas
+{
+	background-image: url(/APPSIVAK/public/img/fondorayasblanclas.png);
+}
+
+.positionRelative
+{
+	position: relative;
+}
+
+.textAlignCenter
+{
+	text-align: center;
+}
+
+.textAlignLeft
+{
+	text-align: left;
+}
+
+.textAlignRight
+{
+	text-align: right;
+}
+
+.titulo
+{
+	background-color: #1570A6;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	width: 100%;
+}
+
+.tresColumnas
+{
+	column-count: 3;
+	width: 630px;
+}
+
+.unaColumna
+{
+	column-count: 1;
+	width: 210px;
+}

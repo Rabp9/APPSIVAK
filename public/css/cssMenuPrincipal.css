@@ -1,0 +1,103 @@
+#contenedorMenuPrincipal
+{
+	background-color: #1497CC;
+	border-top: 2px solid red;
+	margin-top: 2px;
+}
+
+#menuPrincipal
+{
+	width: 100%;
+}
+
+#menuPrincipal a
+{
+	background-color: #1497CC;
+	color: white;
+	display: table-cell;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+#menuPrincipal a:hover
+{
+	background-color: #143C61;
+}
+
+#menuPrincipal li:hover
+{
+	background-color: #3C7AB9;
+}
+
+#menuPrincipal ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+
+#menuPrincipal ul li
+{
+	box-shadow: 0px -1px 1px rgba(255, 255, 255, 0.15);
+	display: inline-table;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	text-align: center;
+	vertical-align: top;
+	width: 120px;
+}
+
+#menuPrincipal > ul > li:hover .iconoMenuPrincipal
+{
+	-webkit-filter: invert(100%);
+	-moz-filter: invert(100%);
+	-ms-filter: invert(100%);
+	-o-filter: invert(100%);
+	filter: invert(100%);
+}
+
+#menuPrincipal > ul > li
+{
+	font-size: 12px;
+}
+
+#menuPrincipal ul > li ul
+{
+	display: none;
+	font-size: 12px;
+	position: absolute;
+}
+
+#menuPrincipal ul > li:hover > ul
+{
+	display: inline-block;
+}
+
+#menuPrincipal > ul > li > ul
+{
+	left: 0px;
+	top: 50px;
+}
+
+#menuPrincipal > ul > li > ul > li
+{
+	display: inline-table;
+	height: 50px;
+	width: 165px;
+}
+
+#menuPrincipal > ul > li > ul > li > ul
+{
+	left: 165px;
+	top: 0px;
+}
+
+#menuPrincipal > ul > li > ul > li > ul > li
+{
+	display: inline-table;
+	height: 50px;
+	width: 165px;
+}

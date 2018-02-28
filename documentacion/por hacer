@@ -1,0 +1,23 @@
+1. Ingresar con el usuario----------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Identificar el formulario donde se registra los comprobantes de pago -> http://localhost:8000/APPSIVAK/public/reciboventa/insertar-----------------------------------------------
+3. Identificar donde se anulan los comprobantes de pago -> http://localhost:8000/APPSIVAK/public/reciboventa/verentrefechas/2018-02-21/2018-02-22-----------------------------------
+4. Buscar libreria laravel para generar .txt----------------------------------------------------------------------------------------------------------------------------------------
+5. Laravel leer archivos de configuracion-------------------------------------------------------------------------------------------------------------------------------------------
+6. Preguntar que documentos se pueden anular----------------------------------------------------------------------------------------------------------------------------------------
+7. Verificar contenido de los txt - 1-----------------------------------------------------------------------------------------------------------------------------------------------
+8. Verificar contenido de los txt - 2-----------------------------------------------------------------------------------------------------------------------------------------------
+9. Verificar contenido de los txt - 3-----------------------------------------------------------------------------------------------------------------------------------------------
+10. Verificar contenido de los txt - 4
+11. Preguntar valor de venta - ops. gravadas, inafectas, exoneradas, Código de tributo IGV (cat. 5), codigo tipo de monto (total descuentos - 2005), se puede anular las ndc--------
+12. Generar txt1 -1
+13. Generar txt1 -2
+14. Generar txt2 -1
+15. Generar txt2 -2
+16. Generar txt3 -1
+17. Generar txt3 -2
+18. Generar txt4 -1
+19. Generar txt4 -2
+20. Generar txt5 -1
+21. Generar txt5 -2
+22. Consultar por informacion del qr
+23. Generar QR
